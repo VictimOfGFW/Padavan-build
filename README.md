@@ -5,5 +5,7 @@ git action 云编译方法详见：
 https://www.jianshu.com/p/c31b58728778
 
 newifi3和psg1218以外的branch需要重新修改build-padavan.yml
+
 19行  runs-on: 后面修改为 ubuntu-latest 否则git action 会报错 Waiting for a runner to pick up this job
+
 31行  cpio git python-docutils 修改为 cpio git docutils
